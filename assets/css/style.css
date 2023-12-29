@@ -139,82 +139,10 @@ body
     padding: 0;
     box-sizing:border-box;
 }
-.resume
+a.button
 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #27282c;
-}
-a.button
-{
-    position: relative;
-    background: #fff;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1.5em;
-    letter-spacing: 0.1em;
-    font-weight: 400;
-    padding: 10px 30px;
-    transition: 0.5s;
-}
-a:hover.button
-{
-    background: var(--clr);
-    color: var(--clr);
-    letter-spacing: 0.25em;
-    box-shadow: 0 0 35px var(--clr);
-}
-a:before.button
-{
-    content: '';
-    position: absolute;
-    inset: 2px;
-    background: #27282c;
-}
-a span.button
-{
-    position: relative;
-    z-index: 1;
-}
-a i.button
-{
-    position: absolute;
-    inset: 0;
-    display: block;
-}
-a i::before.button
-{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 80%;
-    width: 10px;
-    height: 4px;
-    background: #27282c;
-    transform: translateX(-50%) skewX(325deg);
-    transition: 0.5s;
-}
-a:hover i::before.button
-{
-    width: 20px;
-    left: 20%;
-}
-a i::after.button
-{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 20%;
-    width: 10px;
-    height: 4px;
-    background: #27282c;
-    transform: translateX(-50%) skewX(325deg);
-    transition: 0.5s;
-}
-a:hover i::after.button
-{
-    width: 20px;
-    left: 80%;
+    text-align: center;
 }
